@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    .attribution { font-size: 11px; padding: 25px 0 0 0; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main class="container">
+    <div class="intro__box">
+      <h1 class="intro__box__heading">Learn to code by watching others</h1>
+      
+      <p class="intro__box__text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+
+    </div>
+
+    <div class="right__holder">
+      <p class="form__box__heading"><span class="form__box__heading__higlight">Try it free 7 days</span> then $20/mo. thereafter</p>
+
+    <div class="form__box">
+
+      <form>
+          <label for="firstname" class="visually__hidden">First Name</label>
+          <input name="firstname" id="firstname" type="text" placeholder="First Name" class="form__box__input"> 
+          <p class="hidden signup__form__warning" id="firstnameWarning">First Name cannot be empty</p>
+          <label for="lastname" class="visually__hidden"  class="form__box__input">Last Name</label>
+          <input type="text" name="lastname" id="lastname" placeholder="Last Name"  class="form__box__input">
+          <p class="hidden signup__form__warning" id="lastnameWarning">Last Name cannot be empty</p>
+          <label for="email" class="visually__hidden">Email</label>
+          <input type="email" name="email" id="email" placeholder="Email Address"  class="form__box__input">
+          <p class="hidden signup__form__warning" id="emailWarning">Looks like this is not an email</p>
+          <label for="password" class="visually__hidden">Password</label>
+          <input type="password" name="password" id="password" placeholder="Password"  class="form__box__input">
+          <p class="hidden signup__form__warning" id="passwordWarning">Password cannot be empty</p>
+          <input type="submit" class="form__box__submit" id="claimTrial" value="Claim your free trial">
+        </form>
+
+        <p class="terms">By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.bobmatyas.com">Bob Matyas</a>.
+    </p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
