@@ -2,6 +2,12 @@
 
 This is my solution to the Frontend Mentor Intro Component challenge. I built it mobile first using CSS Grid, Custom Properties, and JavaScript. I used Normalize.css to standardize the CSS across browsers.
 
+A live version is online:
+
+[https://bobmatyas.github.io/fm-intro-component/](https://bobmatyas.github.io/fm-intro-component/)
+
+
+
 ![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
 
 
